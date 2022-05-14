@@ -222,6 +222,20 @@ img {
 .advantages-item:last-child {
   margin-right: 0px;
 }
+.advantages-frame {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.advantages-icon {
+  width: 70px;
+  height: 70px;
+}
 .advantages-title {
   font-weight: 700;
   font-size: 14px;
