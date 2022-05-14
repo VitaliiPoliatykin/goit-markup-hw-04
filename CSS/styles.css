@@ -293,12 +293,19 @@ img {
   width: 44px;
   height: 44px;
   background-color: var(--main-bg-cl);
+  color: #afb1b8;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .social-link:hover,
 .social-link:focus {
+  background-color: var(--accent-cl);
+  color: var(--secondary-txt-cl);
+  border-radius: 50%;
+}
+.socials-icon {
+  fill: currentColor;
 }
 /* Footer */
 .footer {
@@ -333,6 +340,27 @@ img {
 .logo-footer {
   padding-top: 0px;
   padding-bottom: 20px;
+}
+.footer-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-cl);
+  margin-bottom: 20px;
+}
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.social-link-join {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: var(--secondary-txt-cl);
+}
+.logo-address {
+  margin-right: 70px;
 }
 
 /* PORTFOLIO */
