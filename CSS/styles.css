@@ -208,6 +208,7 @@ img {
 .hero-btn:focus {
   background-color: #188ce8;
 }
+/* Преимущества студии */
 .advantages {
   padding-bottom: 0px;
 }
@@ -251,6 +252,7 @@ img {
   max-width: 270px;
   max-height: 75px;
 }
+/* Веб-разработка для разных гаджетов */
 .direction-title,
 .team-title,
 .clients-title {
@@ -261,7 +263,6 @@ img {
   letter-spacing: 0.03em;
   margin-bottom: 50px;
 }
-
 .direction-list {
   display: flex;
   align-items: center;
@@ -272,7 +273,7 @@ img {
 .direction-item:last-child {
   margin-right: 0px;
 }
-
+/* Команда */
 .team {
   background-color: #f5f4fa;
 }
@@ -307,6 +308,7 @@ img {
   padding-top: 30px;
   padding-bottom: 30px;
 }
+/* Соцсети */
 .social-list {
   display: flex;
   align-items: center;
@@ -328,9 +330,20 @@ img {
   color: var(--secondary-txt-cl);
   border-radius: 50%;
 }
-.socials-icon,
-.clients-icon {
+.socials-icon {
   fill: currentColor;
+}
+/* Постоянные клиенты */
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.clients-item {
+  margin-right: 30px;
+}
+.clients-item:last-child {
+  margin-right: 0px;
 }
 .clients-link {
   width: 170px;
@@ -347,16 +360,10 @@ img {
   color: var(--accent-cl);
   border-color: var(--accent-cl);
 }
-.clients-list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.clients-item {
-  margin-right: 30px;
-}
-.clients-item:last-child {
-  margin-right: 0px;
+.clients-icon {
+  fill: currentColor;
+  width: 106px;
+  height: 60px;
 }
 /* Footer */
 .footer {
